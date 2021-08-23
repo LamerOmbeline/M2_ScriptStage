@@ -1,0 +1,14 @@
+### Specification de l'environnement conda utilisé pour l'assemblage du génome des isolats A2 et B1
+
+name: assembly
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - unicycler=0.4.8
+  - quast=5.0.2
+  - circos=0.69.8
+  - circos-tools=0.23
+  - prokka=1.14.6
+  - prodigal=2.6.3
