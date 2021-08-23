@@ -1,0 +1,45 @@
+#########################################################################
+# Alignement des reads MinION contre le "plasmide" des isolats A2 et B1
+# Résultats affichés en sortie de Bowtie2
+#########################################################################
+
+### MODE GLOBAL
+
+#B1_ONT vs B1 plasmid
+#bowtie2 --no-unal -x ./indexPlasmid/plasmidRef -U B1_ONT_all.fastq -S B1-ONT_plasmid.sam
+72568 reads; of these:
+  72568 (100.00%) were unpaired; of these:
+    72568 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+
+
+#A2_ONT vs B1 plasmid
+#bowtie2 --no-unal -x ./indexPlasmid/plasmidRef -U A2_ONT_all.fastq -S A2-ONT_plasmid.sam
+39878 reads; of these:
+  39878 (100.00%) were unpaired; of these:
+    39878 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+
+### MODE LOCAL
+
+#B1_ONT vs B1 plasmid
+#bowtie2 --no-unal --local -x ./indexPlasmid/plasmidRef -U B1_ONT_all.fastq -S B1-ONT_plasmid.sam
+72568 reads; of these:
+  72568 (100.00%) were unpaired; of these:
+    72568 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+
+#A2_ONT vs B1 plasmid
+#bowtie2 --no-unal --local -x ./indexPlasmid/plasmidRef -U A2_ONT_all.fastq -S A2-ONT_plasmid.sam
+39878 reads; of these:
+  39878 (100.00%) were unpaired; of these:
+    39878 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
