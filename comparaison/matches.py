@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Auteur : Ombeline LAMER
 # But : Sélection du meilleur match protéine-protéine parmi les matchs significatifs des sorties de BLASTp
-# Commande : python3 matches_newformula.py -paire ../BLASTp_log.txt -inDir ../3_BlastpOutput -outDir ../4_BestMatch
+# Commande : python3 matches.py -paire ../BLASTp_log.txt -inDir ../3_BlastpOutput -outDir ../4_BestMatch
 
 import string, sys
 
