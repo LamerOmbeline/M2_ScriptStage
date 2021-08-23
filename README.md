@@ -5,7 +5,7 @@ Scripts ayant servis à traiter les données biologiques et obtenir les résulta
 Toutes les données supplémentaires seront rendues publiques le lundi 23 août 20h au plus tard.
 
 ## Assemblage de génomes
-Cette partie regroupe tous les scripts bash ayant permis l'obtention des assemblages des isolats A2 et B1 ainsi que des données complémentaires sur les manipulations non automatisées effectuées sur les assemblages.
+Cette partie regroupe tous les scripts bash ayant permis l'obtention des assemblages des isolats A2 et B1.
 ## Comparaison de génomes
 Cette partie regroupe les scripts Python ayant permis l'identification des génomes core et accessoire.
 ## Transcriptomique
