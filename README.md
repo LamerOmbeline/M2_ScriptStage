@@ -2,7 +2,7 @@
 Scripts ayant servis à traiter les données biologiques et obtenir les résultats décrits dans le rapport de stage de M2 (2021)
 
 ## Disponibilité
-Toutes les données supplémentaires seront rendues publiques le lundi 23 août 17h au plus tard.
+Toutes les données supplémentaires seront rendues publiques le lundi 23 août 20h au plus tard.
 
 ## Assemblage de génomes
 Cette partie regroupe tous les scripts bash ayant permis l'obtention des assemblages des isolats A2 et B1 ainsi que des données complémentaires sur les manipulations non automatisées effectuées sur les assemblages.
