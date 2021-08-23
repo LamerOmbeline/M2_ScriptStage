@@ -1,0 +1,13 @@
+### Specification de l'environnement conda utilisé pour la comparaison en contenu protéique des génomes des isolats A2 et B1 avec K96243
+
+name: assembly
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - blast=2.12.0
+  - python=3.9.6
+  - networkx=2.6.2
+  - matplotlib=3.4.3
+  - upsetplot=0.6.0
