@@ -1,6 +1,6 @@
 ### Specification de l'environnement conda utilisé pour la comparaison en contenu protéique des génomes des isolats A2 et B1 avec K96243
 
-name: assembly
+name: compaGenome
 channels:
   - conda-forge
   - bioconda
