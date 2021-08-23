@@ -1,6 +1,6 @@
 # Comparaison de génomes
 
-Vous trouverez ici les scripts python ayant servi à comparer les génomes des isolats et K96243 comme présenté dans le rapport associé. L'ordre d'explication des scripts correspond à l'ordre dans lequels ils doivent être appelés. Des exemples d'appel et la définition des options sont donnés au sein des scripts.
+Vous trouverez ici les scripts python ayant servi à comparer les génomes des isolats et K96243 comme présenté dans le rapport associé. L'ordre d'explication des scripts python correspond à l'ordre dans lequels ils doivent être appelés. Des exemples d'appel et la définition des options sont donnés au sein des scripts.
 
 
 1. blastdb.py : construction des bases de données protéiques.
