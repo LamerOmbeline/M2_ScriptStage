@@ -1,0 +1,20 @@
+### Specification de l'environnement conda utilisé pour le traitement de données transcriptomiques
+
+
+name: RNAseq
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - fastqc=0.11.9
+  - multiqc=0.9
+  - cutadapt=1.18
+  - bowtie2=2.4.1
+  - samtools=1.11
+  - picard=2.25.0
+  - htseq=0.11.2
+  - r-base=4.0.5
+  - bioconductor-dupradar=1.22.0
+  - bioconductor-deseq2=1.32.0
+  - bioconductor-edger=3.34.0 
