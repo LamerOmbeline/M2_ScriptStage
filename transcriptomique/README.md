@@ -6,3 +6,4 @@
 4. RNAseq_pipeline_K96243.sh : script de traitement des données raw, l'alignement et le comptage sur K96243.
 5. RNAseq_pipeline_B1.sh : script de traitement des données trimmés (par le script précédent) avec l'alignement et le comptage des reads sur B1.
 6. dupRadar.R : script R permettant de déterminer si les librairies RNAseq présentent un taux anormale de duplication des reads par ses sorties graphiques.
+7. RNAseq.yaml : specification de l'environnement conda nécessaire aux bon déroulement des scripts utilisés pour les différentes analyses.
